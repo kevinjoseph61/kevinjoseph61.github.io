@@ -50,10 +50,10 @@
                     </div>
                     <p class="lead mb-5">I am Kevin J. Joseph, a 20 year old aspiring engineer with a keen interest in computer sciences and almost everything tech</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/kevin-j-joseph/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/kevinjoseph61"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://www.hackerrank.com/kevinjoseph61"><i class="fab fa-hackerrank"></i></a>
-                        <a class="social-icon" href="https://auth.geeksforgeeks.org/user/kevinjoseph61/"><i>GFG</i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/kevin-j-joseph/" data-toggle="tooltip" data-html="true" data-placement="bottom" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/kevinjoseph61" data-toggle="tooltip" data-html="true" data-placement="bottom" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://www.hackerrank.com/kevinjoseph61" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Hackerrank"><i class="fab fa-hackerrank"></i></a>
+                        <a class="social-icon" href="https://auth.geeksforgeeks.org/user/kevinjoseph61/" data-toggle="tooltip" data-html="true" data-placement="bottom" title="GeeksforGeeks"><i>GFG</i></a>
                     </div>
                 </div>
             </section>
@@ -97,21 +97,21 @@
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="devicon-django-plain"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
-                        <li class="list-inline-item"><i class="devicon-cplusplus-plain"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-git"></i></li>
-                        <li class="list-inline-item"><i class="devicon-mongodb-plain"></i></li>
-                        <li class="list-inline-item"><i class="devicon-mysql-plain"></i></li>
-                        <li class="list-inline-item"><i class="devicon-postgresql-plain"></i></li>
-                        <li class="list-inline-item"><i class="devicon-linux-plain"></i></li>
-                        <li class="list-inline-item"><i class="devicon-amazonwebservices-plain-wordmark"></i></li>
-                        <li class="list-inline-item"><i class="devicon-java-plain"></i></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="Django"><i class="devicon-django-plain"></i></a></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="Python"><i class="fab fa-python"></i></a></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="HTML5"><i class="fab fa-html5"></i></a></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="CSS3"><i class="fab fa-css3-alt"></i></a></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="Bootstrap"><i class="fab fa-bootstrap"></i></a></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="C++"><i class="devicon-cplusplus-plain"></i></a></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="JavaScript"><i class="fab fa-js-square"></i></a></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="SASS"><i class="fab fa-sass"></i></a></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="Git"><i class="fab fa-git"></i></a></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="MongoDB"><i class="devicon-mongodb-plain"></i></a></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="MySQL"><i class="devicon-mysql-plain"></i></a></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="PostgreSQL"><i class="devicon-postgresql-plain"></i></a></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="Linux"><i class="devicon-linux-plain"></i></a></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="Amazon Web Services"><i class="devicon-amazonwebservices-plain-wordmark"></i></a></li>
+                        <li class="list-inline-item"><a data-toggle="tooltip" data-html="true" data-placement="bottom" title="Java"><i class="devicon-java-plain"></i></a></li>
                     </ul>
                     <div class="progress mb-2" style="height: 20px;">
                         <div class="progress-bar" role="progressbar" style="width: 75%;" >Web Development</div>
@@ -355,5 +355,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
     </body>
 </html>
